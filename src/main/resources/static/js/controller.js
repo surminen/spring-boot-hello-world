@@ -4,7 +4,7 @@ app.controller('Hello', function($scope, $http, $window) {
 
 	$scope.filterParam = 'defaultFilterParam';
 
-	$http.get('http://fierce-everglades-97846.herokuapp.com/greeting').then(function(response) {
+	$http.get('https://fierce-everglades-97846.herokuapp.com/greeting').then(function(response) {
 		$scope.greeting = response.data;
 	});
 
